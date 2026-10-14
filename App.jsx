@@ -376,7 +376,7 @@ export default function App() {
     <div className="min-h-screen bg-slate-100 text-slate-900" style={{ fontFamily: "'IBM Plex Sans', system-ui, sans-serif" }}>
       <header className="border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-4 py-4">
-          <h1 className="text-xl font-semibold tracking-tight">Ledger</h1>
+          <h1 className="text-xl font-semibold tracking-tight">RTY</h1>
           <nav className="flex gap-1" aria-label="Main">
             {tabBtn("home", "Dashboard")}
             {tabBtn("records", `Records (${records.length})`)}
